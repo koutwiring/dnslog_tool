@@ -9,11 +9,11 @@ Log data maked this tool can used some analysis of DNS.
 `$ ./dns_query_log <pcap_file> <DNS server IP which you use> > output.log`  
   
 * How to save pcap file:  
-`$tcpdump -n -w output.pcap`  
+`$ tcpdump -n -w output.pcap`  
  
 * Data attribute:  
-Date || source IP || destination IP (DNS server) || protocol || domain name || record type id  
-record type id details (https://en.wikipedia.org/wiki/List_of_DNS_record_types)  
+Date || Source IP || Destination IP (DNS server) || Protocol || Domain Name || Record Type ID  
+Record Type ID details (https://en.wikipedia.org/wiki/List_of_DNS_record_types)  
 
 
 __You can use this tool freely, but I cannot take responsibility for it.__  
