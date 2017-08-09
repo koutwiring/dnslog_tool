@@ -5,7 +5,7 @@ No use response packet.
 Log data maked this tool can used some analysis of DNS.  
 
 * usage:  
-`$ gcc -o dns_query_log.c dns_query_log -lpcap`  
+`$ gcc -o dns_query_log dns_query_log.c -lpcap`  
 `$ ./dns_query_log <pcap_file> <DNS server IP which you use> > output.log`  
   
 * How to save pcap file:  
